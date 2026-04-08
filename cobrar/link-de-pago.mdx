@@ -1,1 +1,27 @@
+---
+title: Cobrar con link de pago
+---
 
+Envía un cobro por WhatsApp, email o comparte un link directo.
+
+## ¿Qué vas a lograr?
+
+Podrás crear cobros y enviarlos a tus clientes por múltiples canales.
+
+Todo se hace con un solo endpoint.
+
+## Endpoint
+
+```bash
+POST /payments
+
+```
+{
+  "amount": 50000,
+  "description": "Compra de prueba",
+  "email": "cliente@email.com"
+}
+{
+  "status": "success",
+  "payment_url": "https://pay.link/123"
+}
