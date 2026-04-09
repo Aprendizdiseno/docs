@@ -14,13 +14,16 @@ Todo se hace con un solo endpoint.
 
 ```bash
 POST /payments
-
+```
+##Ejemplo de request
 ```
 {
   "amount": 50000,
   "description": "Compra de prueba",
   "email": "cliente@email.com"
 }
+##Ejemplo de respuesta 
+```
 {
   "status": "success",
   "payment_url": "https://pay.link/123"
