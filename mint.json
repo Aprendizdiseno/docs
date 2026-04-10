@@ -1,32 +1,11 @@
 {
   "name": "ZonaVirtual API",
+  "theme": "mint",
   "navigation": [
     {
-      "group": "Inicio rápido",
+      "group": "Inicio",
       "pages": [
-        "index",
-        "resumen",
-        "empezar",
-        "conceptos"
-      ]
-    },
-    {
-      "group": "Cobrar (Recaudo)",
-      "pages": [
-        "cobrar/link-de-pago",
-        "cobrar/debito-directo"
-      ]
-    },
-    {
-      "group": "Pagar (Dispersiones)",
-      "pages": [
-        "pagar/dispersiones"
-      ]
-    },
-    {
-      "group": "Webhooks",
-      "pages": [
-        "webhooks/webhooks"
+        "index"
       ]
     }
   ]
